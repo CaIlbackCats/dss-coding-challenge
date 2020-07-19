@@ -9,14 +9,14 @@ import lombok.Setter;
 @Builder
 @Getter
 @Setter
-public class Order {
-	
-	// TODO: Azonosító	Termék	Darabszám	Határidõ	Profit/db (Ft)	Késési büntetés/nap (össz) (Ft)
-	
-	private String id;
-	private String type;
-	private Integer count;
-	private LocalDateTime deadline;
-	private Integer profit;
-	private Integer fine;
+public class Order implements Readable {
+
+    // TODO: Azonosï¿½tï¿½	Termï¿½k	Darabszï¿½m	Hatï¿½ridï¿½	Profit/db (Ft)	Kï¿½sï¿½si bï¿½ntetï¿½s/nap (ï¿½ssz) (Ft)
+
+    private String id;
+    private OrderType type;
+    private Integer count;
+    private LocalDateTime deadline;
+    private Integer profit;
+    private Integer fine;
 }

@@ -1,7 +1,4 @@
 package hu.callbackcats;
 
-public class Engine {
-
-
-
+public interface Readable {
 }
