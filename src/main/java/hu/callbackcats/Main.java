@@ -7,7 +7,6 @@ public class Main {
 	}
 	
 	private void start() {
-		// TODO Auto-generated method stub
-
+		new Engine().init();
 	}
 }

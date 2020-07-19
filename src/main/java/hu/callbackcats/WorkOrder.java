@@ -1,5 +1,6 @@
 package hu.callbackcats;
 
+import hu.callbackcats.machine.Machine;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
